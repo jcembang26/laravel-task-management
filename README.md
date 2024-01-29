@@ -22,6 +22,7 @@ composer install
 
 > required for fresh DB
 ```
+php artisan storage:link
 php artisan migrate
 php artisan db:seed
 ```
